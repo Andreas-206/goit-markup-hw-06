@@ -7,6 +7,10 @@ padding-bottom: 18px;
 display: none;
 }
 
+.adress-list {
+display: none;
+}
+
 .nav-logo{
 color: #4d5ae5;
 font-family: Raleway, sans-serif;
@@ -61,6 +65,7 @@ width: 48px;
 background-color: #404bbf;
 border-radius: 2px;
 }
+
 
 .burger {
 border: none;
@@ -120,12 +125,22 @@ transform: translateX(0%);
     display: none;
     }
 
+    .adress-list {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .navigation  {
+    display: flex;
+    }
+
     .nav-list{
     display: flex;
     }
     }
-
-/* .header{
+   
+    @media  screen and (min-width: 1268px) {
+    .header{
     border-bottom: 1px solid #e7e9fc;
     background: #FFF;
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -208,7 +223,7 @@ transform: translateX(0%);
     
     }
     
-    .adress{
+    .adress {
     color: #434455 ;
     font-size: 16px;
     font-style: normal;
@@ -238,4 +253,13 @@ transform: translateX(0%);
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    } */
+    }
+
+
+    .adress-list {
+    display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    }
+}
