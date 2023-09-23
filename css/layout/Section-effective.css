@@ -16,7 +16,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 }
 }
 
-@media screen and (min-resolution: 768px) {
+@media screen and (min-width: 768px) {
 .section-effective {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image-tab.jpg");
 }
@@ -25,6 +25,20 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+.section-effective {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image@2x-tab.jpg");
+}
+}
+
+@media screen and (min-width: 1158px) {
+.section-effective {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image-tab.jpg");
+}
+}
+    
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+screen and (min-resolution: 2dppx) and (min-width: 1158px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 .section-effective {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image@2x-tab.jpg");
 }
