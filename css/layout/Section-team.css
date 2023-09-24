@@ -16,6 +16,10 @@ background: #F4F4FD;
     text-transform: capitalize;
 }
 
+.team-list {
+background-color: #fff;
+}
+
 .worker-photo {
 margin-bottom: 32px;
 }
