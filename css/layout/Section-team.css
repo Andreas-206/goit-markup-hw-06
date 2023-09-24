@@ -1,3 +1,7 @@
+.container {
+width: 296px;
+}
+
 .section-team {
 padding-top: 96px;
 padding-bottom: 96px;
@@ -16,9 +20,9 @@ background: #F4F4FD;
     text-transform: capitalize;
 }
 
-.team-list {
+/* .team-list {
 background-color: #fff;
-}
+} */
 
 .worker-photo {
 margin-bottom: 32px;
@@ -84,6 +88,10 @@ padding-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) {
+.container {
+width: 584px;
+}
+
 .team-container {
 display: flex;
 flex-wrap: wrap;
@@ -100,6 +108,10 @@ width: calc((100% - 24px) / 2);
 
 
 @media screen and (min-width: 1158px) {
+    .container {
+    width: 1158px;
+    }
+    
     .section-team{
         background: #F4F4FD;
         padding-top: 120px;
