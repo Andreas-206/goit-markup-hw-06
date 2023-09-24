@@ -57,8 +57,31 @@ background: #2E2F42;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin-bottom: 16px;
     }
 
+    .footer-list {
+    display: flex;
+    margin-bottom: 72px;
+    }
+
+    .subscribe {
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+    }
+
+    .footer-form-label {
+
+    }
+
+    btn-subscribe {
+
+    }
 
 
 /* .footer{
