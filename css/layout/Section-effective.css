@@ -3,7 +3,7 @@ padding-top: 72px;
 width: 100%;
 padding-bottom: 96px;
 color: #FFF;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/1.Tel/hero-image-mob.jpg");
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/1.Tel/hero-image-mob-min.jpg");
 background-position: center;
 }
 
@@ -48,13 +48,13 @@ background-position: center;
 screen and (min-resolution: 2dppx),
 screen and (min-device-pixel-ratio: 2) {
 .section-effective {
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../../images/Rastr_img/1.Tel/hero-image@2x-mob.jpg');
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../../images/Rastr_img/1.Tel/hero-image@2x-mob-min.jpg');
 }
 }
 
 @media screen and (min-width: 768px) {
 .section-effective {
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image-tab.jpg");
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image-tab-min.jpg");
 padding-top: 0;
 }
 
@@ -71,7 +71,7 @@ padding-top: 112px;
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 .section-effective {
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image@2x-tab.jpg");
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image@2x-tab-min.jpg");
 }
 }
 
@@ -80,7 +80,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         background: #2E2F42;
         padding-top: 188px;
         padding-bottom: 188px;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image@2x-tab.jpg");
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image@2x-tab-min.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -135,7 +135,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 screen and (min-resolution: 2dppx) and (min-width: 1158px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
 .section-effective {
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image@2x-tab.jpg");
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/Rastr_img/2.Tablet/hero-image@2x-tab-min.jpg");
 }
 }
 
