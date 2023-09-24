@@ -20,9 +20,9 @@ background: #F4F4FD;
     text-transform: capitalize;
 }
 
-/* .team-list {
+.team-list {
 background-color: #fff;
-} */
+} 
 
 .worker-photo {
 margin-bottom: 32px;
@@ -121,8 +121,6 @@ width: calc((100% - 24px) / 2);
         .team-img-padding{
         padding-top: 32px;
         padding-bottom: 32px;
-        width: 232px;
-        height: 168px;
         }
         
         .team-container{
