@@ -40,7 +40,12 @@ letter-spacing: 0.02em;
 .advan-list {
 display: flex;
 flex-wrap: wrap;
-width: calc((100% - 72px) / 2);
+gap: 72px 24px;
+
+}
+
+.advan-item {
+width: calc((100% - 24px) / 2);
 }
 }
 
