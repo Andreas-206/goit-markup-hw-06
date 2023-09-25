@@ -2,6 +2,10 @@
 background: #2E2F42;
 }
 
+.container {
+min-width: 320px;
+}
+
 .foot-logo{
     padding-top: 98px;
     color: #4d5ae5;
@@ -143,7 +147,34 @@ background: #2E2F42;
 
 
     @media screen and (min-width: 768px) {
-        
+
+    .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+    }
+
+    .subscribe {
+    text-align: left;
+    }
+
+    .footer-form {
+    display: flex;
+    flex-direction: row;
+    }
+
+    .input-footer {
+    width: 264px;
+    margin-right: 24px;
+    }
+
+    .btn-subscribe{
+    width: 165px;
+    }
+
+
+
     }
 
     @media screen and (min-width: 1158px) {
