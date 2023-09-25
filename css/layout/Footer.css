@@ -4,8 +4,10 @@ padding-top: 96px;
 padding-bottom: 96px;
 }
 
-.container {
+.container-foot {
 min-width: 320px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .logo-footer-container {
@@ -160,7 +162,7 @@ align-items: center;
     padding-bottom: 96px;
     }
 
-    .container {
+    .container-foot {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -198,7 +200,7 @@ align-items: center;
     }
 
     @media screen and (min-width: 1158px) {
-        .container {
+        .container-foot {
         display: flex;
         flex-wrap: nowrap;
         }

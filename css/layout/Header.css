@@ -75,8 +75,10 @@ line-height: 0;
 
 .header-container{
 display: flex;
+flex-direction: row;
 align-items: center;
 justify-content: space-between;
+gap: 72px 24px;
 }
 
 .mobile-menu {
