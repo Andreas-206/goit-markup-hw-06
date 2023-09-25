@@ -122,7 +122,9 @@ fill: #ffffff;
 }
 
 .menu-nav{
-
+padding-top: 72px;
+padding-left: 16px;
+margin-bottom: 168px;
 }
 
 .menu-adress{
@@ -130,24 +132,61 @@ fill: #ffffff;
 }
 
 .nav-menu-list {
+display: flex;
+flex-direction: column;
+gap: 40px;
 }
 
 .navigation-menu-link {
+color: #2E2F42;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
-.studio-link {
+.studio-menu-link {
+color: #404BBF;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
 .adress-menu-list {
+display: flex;
+flex-direction: column;
+gap: 24px;
+padding-left: 16px;
+margin-bottom: 48px;
 }
 
 .adress-menu-link {
+color: #434455;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.adress-menu-mail-link {
+color: #4d5ae5;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 
 .menu-soclist {
 display: flex;
+padding-left: 16px;
 margin-bottom: 72px;
-justify-content: center;
+justify-content: left;
 gap: 40px;
 }
 
