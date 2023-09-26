@@ -180,6 +180,7 @@ text-align: left;
 .footer-form {
 display: flex;
 flex-direction: row;
+align-items: baseline;
 }
 
 .input-footer {
