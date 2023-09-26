@@ -85,6 +85,7 @@ width: calc((100% - 24px) / 2);
         
         .advantages{
         color: #2E2F42;
+        text-align: left;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;

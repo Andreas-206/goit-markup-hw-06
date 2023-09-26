@@ -148,7 +148,7 @@ width: calc((100% - 24px) / 2);
         }
         
         .worker-photo{
-        background: url(<path-to-image>), lightgray -200px -7.128px / 251.515% 170.277% no-repeat;
+        margin-bottom: 0;
         }
         
         .name-team{
