@@ -213,6 +213,7 @@ flex-wrap: nowrap;
 align-items: baseline;
 margin: 0 auto;
 gap: 0;
+padding-left: 0;
 }
 
 .logo-footer-container{
