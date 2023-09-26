@@ -1,7 +1,11 @@
+.portfolio-section {
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
 .table-portfolio {
 color: #2E2F42;
-padding-top: 96px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 text-align: center;
 font-size: 36px;
 font-style: normal;

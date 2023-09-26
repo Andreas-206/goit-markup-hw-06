@@ -92,6 +92,7 @@ gap: 24px;
 .team-img-padding {
 background-color: #FFF;
 padding-bottom: 32px;
+padding-top: 32px;
 }
 
 @media screen and (min-width: 768px) {
