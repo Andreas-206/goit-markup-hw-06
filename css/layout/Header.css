@@ -206,6 +206,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 @media screen and (min-width: 768px) {
 
+.container {
+/* width: 768px; */
+}
+
 .header-container {
 flex-wrap: nowrap;
 }
@@ -217,7 +221,16 @@ display: none;
 .adress-list {
 display: flex;
 flex-direction: column;
+gap: 12px;
+}
 
+.adress-link {
+color: #434455;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.17;
+letter-spacing: 0.04em;
 }
 
 .navigation  {
