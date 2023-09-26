@@ -1,3 +1,7 @@
+.advan-container {
+max-width: 428px;
+}
+
 .icon-container {
 display: none;
 }
@@ -24,6 +28,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 gap: 8px;
+margin-bottom: 8px;
 }
 
 .advan-text {
@@ -37,12 +42,15 @@ letter-spacing: 0.02em;
 
 @media screen and (min-width: 768px) {
 
+.advan-container {
+max-width: 1157px;
+}
+
 .advan-list {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 gap: 72px 24px;
-
 }
 
 .advan-item {

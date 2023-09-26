@@ -215,6 +215,7 @@ gap: 0;
 
 .logo-footer-container{
 margin-right: 120px;
+align-items: flex-start;
 }
 
 .footer-list{
@@ -253,6 +254,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
+text-align: left;
 margin-bottom: 16px;
 }
 

@@ -8,6 +8,13 @@ padding-bottom: 96px;
 background: #F4F4FD;
 }
 
+.team-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 72px;
+}
+
 .table-team {
     color: #2E2F42;
     margin-bottom: 96px;
