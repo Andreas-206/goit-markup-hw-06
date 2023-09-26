@@ -166,6 +166,7 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 gap: 72px 24px;
+padding-left: 88px;
 }
 
 .text-footer {
